@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+html, input {
+    font-family: "Vazirmatn", sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+#time {
+    width: 220px;
+}
+
+.count-down {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.timeout-message {
+    color: darkgreen;
+    font-weight: bold;
+}
